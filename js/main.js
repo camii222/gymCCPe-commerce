@@ -1,16 +1,16 @@
 const productos = [
-  { id: 1, nombre: "BCAA 2:1:1", precio: 45000, img: "../img/bcaa.jpg", categoria: "Suplementos" },
-  { id: 2, nombre: "Bandas de Resistencia", precio: 25000, img: "../img/bandas.jpg", categoria: "Accesorios" },
-  { id: 3, nombre: "Colchoneta de Yoga", precio: 20000, img: "../img/yoga.jpg", categoria: "Accesorios" },
-  { id: 4, nombre: "Straps", precio: 5000, img: "../img/straps.jpg", categoria: "Accesorios" },
-  { id: 5, nombre: "Botella Térmica", precio: 20000, img: "../img/botellas.jpg", categoria: "Accesorios" },
-  { id: 6, nombre: "Guantes de Entrenamiento", precio: 13000, img: "../img/guantes.jpg", categoria: "Accesorios" },
-  { id: 7, nombre: "Creatina Monohidratada", precio: 60000, img: "../img/creatina.jpg", categoria: "Suplementos" },
-  { id: 8, nombre: "Proteína Whey", precio: 85000, img: "../img/proteina.jpg", categoria: "Suplementos" },
-  { id: 9, nombre: "Pre-entreno Explosive Pump", precio: 55000, img: "../img/preentreno.jpg", categoria: "Suplementos" },
-  { id: 10, nombre: "Multivitamínico Premium", precio: 30000, img: "../img/multivitaminico.jpg", categoria: "Suplementos" },
-  { id: 11, nombre: "Omega 3 Fish Oil", precio: 40000, img: "../img/omega3.jpg", categoria: "Suplementos" },
-  { id: 12, nombre: "Mancuernas Ajustables", precio: 150000, img: "../img/mancuernas.jpg", categoria: "Equipamiento" }
+  { id: 1, nombre: "BCAA 2:1:1", precio: 45000, img: "img/bcaa.jpg", categoria: "Suplementos" },
+  { id: 2, nombre: "Bandas de Resistencia", precio: 25000, img: "img/bandas.jpg", categoria: "Accesorios" },
+  { id: 3, nombre: "Colchoneta de Yoga", precio: 20000, img: "img/yoga.jpg", categoria: "Accesorios" },
+  { id: 4, nombre: "Straps", precio: 5000, img: "img/straps.jpg", categoria: "Accesorios" },
+  { id: 5, nombre: "Botella Térmica", precio: 20000, img: "img/botellas.jpg", categoria: "Accesorios" },
+  { id: 6, nombre: "Guantes de Entrenamiento", precio: 13000, img: "img/guantes.jpg", categoria: "Accesorios" },
+  { id: 7, nombre: "Creatina Monohidratada", precio: 60000, img: "img/creatina.jpg", categoria: "Suplementos" },
+  { id: 8, nombre: "Proteína Whey", precio: 85000, img: "img/proteina.jpg", categoria: "Suplementos" },
+  { id: 9, nombre: "Pre-entreno Explosive Pump", precio: 55000, img: "img/preentreno.jpg", categoria: "Suplementos" },
+  { id: 10, nombre: "Multivitamínico Premium", precio: 30000, img: "img/multivitaminico.jpg", categoria: "Suplementos" },
+  { id: 11, nombre: "Omega 3 Fish Oil", precio: 40000, img: "img/omega3.jpg", categoria: "Suplementos" },
+  { id: 12, nombre: "Mancuernas Ajustables", precio: 150000, img: "img/mancuernas.jpg", categoria: "Equipamiento" }
 ];
 
 let carrito = JSON.parse(localStorage.getItem("carritoGym")) || [];
